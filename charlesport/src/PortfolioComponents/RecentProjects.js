@@ -4,7 +4,7 @@ import React from 'react';
 const projects = [
   {
     name: 'Tech Tressure',
-    description: 'Front End Drone E-commerce',
+    description: 'My first Front End Drone E-commerce',
     website: 'https://charles-cs.github.io/Portfolio/TechTressure.html',
   },
   {
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     name: 'DroneX',
-    description: 'Full Functional E-commerce drone platform developed by 3CS-A Group 11',
+    description: 'Full Functional E-commerce drone platform developed by 3CS-A',
     website: 'http://127.0.0.1:5500/src/index.html',
   },
 ];
