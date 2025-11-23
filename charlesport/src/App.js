@@ -1,35 +1,13 @@
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
-// ⭐ Import your portfolio landing page
-import ProfilePage from "./PortfolioComponents/ProfilePage";
+import React from "react";
+import ProfilePage from "./PortfolioComponents/ProfilePage"; // Adjust path if needed
+import "./App.css"; // Optional: your global styles
 
 function App() {
-  return <ProfilePage />;
-} 
-export default App;
+  return (
+    <div className="App">
+      <ProfilePage />
+    </div>
+  );
+}
 
+export default App;
