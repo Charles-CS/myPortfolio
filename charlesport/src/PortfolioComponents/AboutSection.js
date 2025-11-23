@@ -32,7 +32,6 @@ export default function AboutSection() {
       
       <p>
        When I'm not writing code, I enjoy reading and learning about technologies,
-        I share the things I've learned through short videos on my blog.
       </p>
 
     </div>
